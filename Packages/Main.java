@@ -6,7 +6,9 @@ public class Main {
         HelperBox helpbox = new HelperBox();
 
         helpbox.serialize();
-        HelperBox.signKey("785-9340e-arfw-36t63"); //random
+        HelperBox.signKey("785-9340e-arfw-36t63");
+
+        System.out.println(helpbox.addFunction(12,19));
 
     }
 }
