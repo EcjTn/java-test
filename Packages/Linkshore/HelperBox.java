@@ -9,4 +9,8 @@ public class HelperBox {
     public static void signKey(String key){
         System.out.println(key + " Signed...");
     }
+
+    public int addFunction(int a, int b) {
+        return a + b;
+    }
 }
