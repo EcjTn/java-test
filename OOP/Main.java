@@ -1,5 +1,6 @@
 import Encapsulz.Humanoid;
 import Inheritancez.Human;
+import Inheritancez.Zombie;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,9 +15,12 @@ public class Main {
 
 
         //Inheritance ---------------------------------
-        //human inherited zombies lol
-        Human human = new Human();
-        human.imInfected();
+        //human inherited zombies
+        Human human = new Human(true, 22224, "Ecj");
+
+        human.introduceSelf();
+        human.becameZombie();
+
         human.biteAction();
         human.adaptAction();
         // --------------------------------------------
